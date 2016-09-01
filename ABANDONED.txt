@@ -1,0 +1,6 @@
+This branch has been abandoned because there were too many conflicts to resolve.
+
+Code has been manually re-merged with https://github.com/JKISoftware/JKI-JSON-Serialization
+as of 1.1.2. See:
+
+https://github.com/robertbcalhoun/JKI-JSON-Serialization/tree/feature/variant-attributes-1.1.2

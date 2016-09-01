@@ -177,10 +177,10 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
-			<Item Name="Variant Constant (null).vi" Type="VI" URL="../Serializer/JSON Serializer/Variant Constant (null).vi"/>
-			<Item Name="Variant Constant (empty object).vi" Type="VI" URL="../Serializer/JSON Serializer/Variant Constant (empty object).vi"/>
-			<Item Name="Variant Constant (array).vi" Type="VI" URL="../Serializer/JSON Serializer/Variant Constant (array).vi"/>
+			<Item Name="Variant Constant (empty object).vi" Type="VI" URL="../Library/Variant Constant (empty object).vi"/>
 			<Item Name="Variant to Variant Attributes.vi" Type="VI" URL="../Deserializer/JSON Deserializer/Variant to Variant Attributes.vi"/>
+			<Item Name="Variant Constant (null).vi" Type="VI" URL="../Library/Variant Constant (null).vi"/>
+			<Item Name="Variant Constant (array).vi" Type="VI" URL="../Library/Variant Constant (array).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

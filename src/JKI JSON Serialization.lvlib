@@ -13,12 +13,18 @@
 		<Item Name="Lexer.lvclass" Type="LVClass" URL="../Deserializer/Lexer/Lexer.lvclass"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Waveform Cluster.ctl" Type="VI" URL="../Library/Waveform Cluster.ctl"/>
 		<Item Name="Timestamp Options.ctl" Type="VI" URL="../Library/Timestamp Options.ctl"/>
 	</Item>
 	<Item Name="JSON Deserializer.lvclass" Type="LVClass" URL="../Deserializer/JSON Deserializer/JSON Deserializer.lvclass"/>
 	<Item Name="JSON Serializer.lvclass" Type="LVClass" URL="../Serializer/JSON Serializer/JSON Serializer.lvclass"/>
 	<Item Name="Null Value.vi" Type="VI" URL="../Library/Null Value.vi"/>
+	<Item Name="Empty Cluster.vi" Type="VI" URL="../Library/Empty Cluster.vi"/>
+	<Item Name="Empty Array.vi" Type="VI" URL="../Library/Empty Array.vi"/>
 	<Item Name="Is Null.vi" Type="VI" URL="../Library/Is Null.vi"/>
+	<Item Name="Is Empty Cluster.vi" Type="VI" URL="../Library/Is Empty Cluster.vi"/>
+	<Item Name="Is Empty Array.vi" Type="VI" URL="../Library/Is Empty Array.vi"/>
 	<Item Name="Unflatten From JSON String.vi" Type="VI" URL="../Library/Unflatten From JSON String.vi"/>
 	<Item Name="Flatten To JSON String.vi" Type="VI" URL="../Library/Flatten To JSON String.vi"/>
+	<Item Name="Adapt To Type.vi" Type="VI" URL="../Library/Adapt To Type.vi"/>
 </Library>

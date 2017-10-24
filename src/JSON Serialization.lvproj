@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="13008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -35,7 +35,6 @@
 				<Item Name="Test Deserialize Null.vi" Type="VI" URL="../../test/Test Deserialize Null.vi"/>
 				<Item Name="Test Deserialize Null To Defaults.vi" Type="VI" URL="../../test/Test Deserialize Null To Defaults.vi"/>
 				<Item Name="Test Deserialize.vi" Type="VI" URL="../../test/Test Deserialize.vi"/>
-				<Item Name="Test Deserialize Variant Attributes.vi" Type="VI" URL="../../test/Test Deserialize Variant Attributes.vi"/>
 			</Item>
 			<Item Name="Serialization" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -57,16 +56,29 @@
 				<Item Name="Test Serialize Variants.vi" Type="VI" URL="../../test/Test Serialize Variants.vi"/>
 				<Item Name="Test Serialize.vi" Type="VI" URL="../../test/Test Serialize.vi"/>
 				<Item Name="Test Serialize Paths.vi" Type="VI" URL="../../test/Test Serialize Paths.vi"/>
-				<Item Name="Test Serialize Variant Attributes.vi" Type="VI" URL="../../test/Test Serialize Variant Attributes.vi"/>
 			</Item>
 			<Item Name="RoundTrip" Type="Folder">
+				<Item Name="Test Roundtrip Serialize Waveforms.vi" Type="VI" URL="../../test/Test Roundtrip Serialize Waveforms.vi"/>
 				<Item Name="Test RoundTrip ComplexClusters.vi" Type="VI" URL="../../test/Test RoundTrip ComplexClusters.vi"/>
 				<Item Name="Test RoundTrip Enumeration.vi" Type="VI" URL="../../test/Test RoundTrip Enumeration.vi"/>
 				<Item Name="Test RoundTrip Serialization.vi" Type="VI" URL="../../test/Test RoundTrip Serialization.vi"/>
 				<Item Name="Test RoundTrip Path.vi" Type="VI" URL="../../test/Test RoundTrip Path.vi"/>
 			</Item>
+			<Item Name="GitHub Issues" Type="Folder">
+				<Item Name="Test GitHub Issues.vi" Type="VI" URL="../../test/Test GitHub Issues.vi"/>
+				<Item Name="Test GitHub Issue 28 - Deserialize Array of Cluster of Arrays Wraps Elements in Variants.vi" Type="VI" URL="../../test/Test GitHub Issue 28 - Deserialize Array of Cluster of Arrays Wraps Elements in Variants.vi"/>
+				<Item Name="Test GitHub Issue 29 - Deserialize Array of Cluster of Cluster Wraps Elements in Variants.vi" Type="VI" URL="../../test/Test GitHub Issue 29 - Deserialize Array of Cluster of Cluster Wraps Elements in Variants.vi"/>
+				<Item Name="Test GitHub Issue 30 - Deserialize Array of Cluster of Multi-Dimensional Array Wraps Inner Elements in Variants.vi" Type="VI" URL="../../test/Test GitHub Issue 30 - Deserialize Array of Cluster of Multi-Dimensional Array Wraps Inner Elements in Variants.vi"/>
+				<Item Name="Test GitHub Issue 31- Incorrect indentation when treating cluster as an ordered array.vi" Type="VI" URL="../../test/Test GitHub Issue 31- Incorrect indentation when treating cluster as an ordered array.vi"/>
+			</Item>
 			<Item Name="Test JSON Serialization.vi" Type="VI" URL="../../test/Test JSON Serialization.vi"/>
 			<Item Name="Performance Test.vi" Type="VI" URL="../../test/Performance Test.vi"/>
+		</Item>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Config File" Type="Folder">
+				<Item Name="JSON Config File.lvclass" Type="LVClass" URL="../Examples/Config file/Classes/JSON Config File/JSON Config File.lvclass"/>
+				<Item Name="Write and Read Configuration File.vi" Type="VI" URL="../Examples/Config file/Write and Read Configuration File.vi"/>
+			</Item>
 		</Item>
 		<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="../JKI JSON Serialization.lvlib"/>
 		<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
@@ -123,7 +135,7 @@
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Caraya.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlib"/>
@@ -156,7 +168,7 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -173,14 +185,11 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 			</Item>
-			<Item Name="Variant Constant (empty object).vi" Type="VI" URL="../Library/Variant Constant (empty object).vi"/>
-			<Item Name="Variant to Variant Attributes.vi" Type="VI" URL="../Deserializer/JSON Deserializer/Variant to Variant Attributes.vi"/>
-			<Item Name="Variant Constant (null).vi" Type="VI" URL="../Library/Variant Constant (null).vi"/>
-			<Item Name="Variant Constant (array).vi" Type="VI" URL="../Library/Variant Constant (array).vi"/>
+			<Item Name="Test Parse ISO 8601 Timestamps.vi" Type="VI" URL="../../test/Test Parse ISO 8601 Timestamps.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

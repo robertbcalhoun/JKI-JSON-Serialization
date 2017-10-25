@@ -192,10 +192,12 @@
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
 			<Item Name="Variant Constant (empty object).vi" Type="VI" URL="../Library/Variant Constant (empty object).vi"/>
-			<Item Name="Test Deserialize Variant Attributes.vi" Type="VI" URL="../../test/Test Deserialize Variant Attributes.vi"/>
-			<Item Name="Variant Constant (null).vi" Type="VI" URL="../Library/Variant Constant (null).vi"/>
-			<Item Name="Variant Constant (array).vi" Type="VI" URL="../Library/Variant Constant (array).vi"/>
 			<Item Name="Variant to Variant Attributes.vi" Type="VI" URL="../Deserializer/JSON Deserializer/Variant to Variant Attributes.vi"/>
+			<Item Name="Test Parse ISO 8601 Timestamps.vi" Type="VI" URL="../../test/Test Parse ISO 8601 Timestamps.vi"/>
+			<Item Name="Variant Constant (array).vi" Type="VI" URL="../Library/Variant Constant (array).vi"/>
+			<Item Name="Variant Constant (null).vi" Type="VI" URL="../Library/Variant Constant (null).vi"/>
+			<Item Name="Test Deserialize Variant Attributes.vi" Type="VI" URL="../../test/Test Deserialize Variant Attributes.vi"/>
+			<Item Name="Test Serialize Variant Attributes.vi" Type="VI" URL="../../test/Test Serialize Variant Attributes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
